@@ -1,0 +1,55 @@
+body {
+  background: #7b02cc;
+  font-family: Quicksand;
+  text-align: center;
+}
+
+#wrapper {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#wrapper div,
+#wrapper ul {
+  width: 50%;
+  max-width: 300px;
+}
+
+ul {
+  padding: 0px;
+}
+
+#titulo {
+  font-family: pacifico, sans-serif;
+  font-size: 30px;
+  font-weight: ligh;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.alter {
+  list-style-type: none;
+  margin-bottom: 4px;
+  padding: 10px;
+  background: #e6e6e6;
+}
+
+.alter:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#result {
+  font-weight: bold;
+}
+
+#pontos,
+#result {
+  font-family: assistant, sans-serif;
+  color: white;
+  font-size: 12pt;
+}
